@@ -581,12 +581,12 @@ class ImagePainterState extends State<ImagePainter> {
                       setState(_paintHistory.removeLast);
                     }
                   }),
-              IconButton(
-                tooltip: textDelegate.clearAllProgress,
-                icon: widget.clearAllIcon ??
-                    Icon(Icons.clear, color: Colors.grey[700]),
-                onPressed: () => setState(_paintHistory.clear),
-              ),
+//               IconButton(
+//                 tooltip: textDelegate.clearAllProgress,
+//                 icon: widget.clearAllIcon ??
+//                     Icon(Icons.clear, color: Colors.grey[700]),
+//                 onPressed: () => setState(_paintHistory.clear),
+//               ),
             ],
           ),
         ),
@@ -858,12 +858,12 @@ class ImagePainterState extends State<ImagePainter> {
                   setState(_paintHistory.removeLast);
                 }
               }),
-          IconButton(
-            tooltip: textDelegate.clearAllProgress,
-            icon: widget.clearAllIcon ??
-                Icon(Icons.clear, color: Colors.grey[700]),
-            onPressed: () => setState(_paintHistory.clear),
-          ),
+//           IconButton(
+//             tooltip: textDelegate.clearAllProgress,
+//             icon: widget.clearAllIcon ??
+//                 Icon(Icons.clear, color: Colors.grey[700]),
+//             onPressed: () => setState(_paintHistory.clear),
+//           ),
         ],
       ),
     );
